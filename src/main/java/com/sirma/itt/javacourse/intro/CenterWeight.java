@@ -6,28 +6,29 @@ package com.sirma.itt.javacourse.intro;
  * @author Fester
  */
 public class CenterWeight {
-
 	/**
-	 * @param args
-	 *            x
+	 * @param arr
+	 *            - array with integers
+	 * @return center weight of the array
 	 */
-	public static void main(String[] args) {
-		int[] arr = { 12, 3, 2, 4, 3, 1, 1, 1, 1, 8 };
-		System.out.println(arr[arrWeight(arr)]);
-	}
-
 	public static int arrWeight(int[] arr) {
-		int x1 = arr[0], x2 = arr[arr.length - 1], countLeft = 1, countRight = 1;
-		for (int i = 1; i < arr.length - 2; i++) {
-			if (x1 < x2) {
-				x1 += arr[i];
-				countLeft++;
-			} else if (x1 > x2) {
+		int sum = 0;
+		int sum2 = 0;
+		int i;
 
-				x2 += arr[arr.length - i];
-			}
+		if (arr == null)
+			return 0;
+
+		for (i = 0; i < arr.length; i++) {
+			sum += arr[i];
 		}
-		return countLeft;
-	}
+		sum = sum / 2;
+		i = 0;
+		while (sum >= sum2) {
+			sum2 += arr[i];
+			i++;
+		}
 
+		return i;
+	}
 }
