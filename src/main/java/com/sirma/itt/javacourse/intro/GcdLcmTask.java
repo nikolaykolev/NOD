@@ -16,7 +16,7 @@ public class GcdLcmTask {
 	 *            integer
 	 * @return GCD of num1 and num2
 	 */
-	public static int gcd(int num1, int num2) {
+	public int gcd(int num1, int num2) {
 		int num1Temp = num1;
 		int num2Temp = num2;
 		while (num1Temp != num2Temp) {
@@ -38,7 +38,7 @@ public class GcdLcmTask {
 	 *            integer
 	 * @return LCM of num1 and num2
 	 */
-	public static int lcm(int num1, int num2) {
+	public int lcm(int num1, int num2) {
 
 		return num1 * num2 / (gcd(num1, num2));
 	}

@@ -11,7 +11,7 @@ public class CenterWeight {
 	 *            - array with integers
 	 * @return center weight of the array
 	 */
-	public static int arrWeight(int[] arr) {
+	public int arrWeight(int[] arr) {
 		int sum = 0;
 		int sum2 = 0;
 		int i;

@@ -10,14 +10,15 @@ import org.junit.Test;
  * @author Fester
  */
 public class TestGcdLcmTask {
+	private GcdLcmTask calc = new GcdLcmTask();
 
 	/**
 	 * testing GCD method.
 	 */
 	@Test
 	public void testGcd() {
-		assertEquals("GCD of 18 and 84 must be 6", 6, GcdLcmTask.gcd(18, 84));
-		assertEquals("GCD of 12 and 18 must be 6", 6, GcdLcmTask.gcd(12, 18));
+		assertEquals("GCD of 18 and 84 must be 6", 6, calc.gcd(18, 84));
+		assertEquals("GCD of 12 and 18 must be 6", 6, calc.gcd(12, 18));
 	}
 
 	/**
@@ -25,8 +26,8 @@ public class TestGcdLcmTask {
 	 */
 	@Test
 	public void testLcm() {
-		assertEquals("LCM of 14 and 84 must be 21", 42, GcdLcmTask.lcm(14, 21));
-		assertEquals("LCM of 84 and 120 must be 840", 840, GcdLcmTask.lcm(84, 120));
+		assertEquals("LCM of 14 and 84 must be 21", 42, calc.lcm(14, 21));
+		assertEquals("LCM of 84 and 120 must be 840", 840, calc.lcm(84, 120));
 	}
 
 }

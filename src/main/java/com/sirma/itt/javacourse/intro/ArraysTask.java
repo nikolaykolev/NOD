@@ -16,7 +16,7 @@ public class ArraysTask {
 	 *            integer array
 	 * @return minElement
 	 */
-	public static int getMinElement(int[] arr) {
+	public int getMinElement(int[] arr) {
 		Arrays.sort(arr);
 		return arr[0];
 	}
@@ -28,7 +28,7 @@ public class ArraysTask {
 	 *            integer array
 	 * @return sum of elements
 	 */
-	public static int getSum(int[] arr) {
+	public int getSum(int[] arr) {
 		int sum = 0;
 		int arrLength = arr.length;
 		for (int i = 0; i < arrLength; i++) {
@@ -45,7 +45,7 @@ public class ArraysTask {
 	 *            integer array
 	 * @return sum of elements
 	 */
-	public static String printArray(int[] arr) {
+	public String printArray(int[] arr) {
 		String elements = "";
 		int arrLength = arr.length;
 		for (int i = 0; i < arrLength; i++) {
