@@ -1,9 +1,12 @@
 package com.sirma.itt.javacourse.intro;
 
+/**
+ * run class for CenterWeight.
+ */
 public class RunCenterWeight {
 
 	/**
-	 * run class for CenterWeight.
+	 * main method launching CentherWeight.
 	 */
 	public static void main() {
 		CenterWeight arr = new CenterWeight();

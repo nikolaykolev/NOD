@@ -43,18 +43,18 @@ public class ArraysTask {
 	 * 
 	 * @param arr
 	 *            integer array
-	 * @return sum of elements
 	 */
 	public String printArray(int[] arr) {
 		String elements = "";
 		int arrLength = arr.length;
 		for (int i = 0; i < arrLength; i++) {
 			elements += arr[i];
-			if (i < arr.length - 1) {
+			if (i < arrLength - 1) {
 				elements += ", ";
 			}
 		}
 
+		System.out.println(elements);
 		return elements;
 	}
 }
