@@ -43,6 +43,7 @@ public class ArraysTask {
 	 * 
 	 * @param arr
 	 *            integer array
+	 * @return printer elements
 	 */
 	public String printArray(int[] arr) {
 		String elements = "";
