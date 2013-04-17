@@ -45,4 +45,14 @@ public class TestArrays {
 		assertEquals("Must return 130", "100, 12, 12, 1, 2, 3", arr.printArray(test2));
 	}
 
+	/**
+	 * testing null pointer exception.
+	 */
+	@Test(expected = NullPointerException.class)
+	public void testNulls() {
+		assertEquals("null array", arr.printArray(null));
+		assertEquals("null array", arr.getSum(null));
+		assertEquals("null array", arr.getMinElement(null));
+	}
+
 }

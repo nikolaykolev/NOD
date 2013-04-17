@@ -17,6 +17,7 @@ public class GcdLcmTask {
 	 * @return GCD of num1 and num2
 	 */
 	public int gcd(int num1, int num2) {
+
 		int num1Temp = num1;
 		int num2Temp = num2;
 		while (num1Temp != num2Temp) {

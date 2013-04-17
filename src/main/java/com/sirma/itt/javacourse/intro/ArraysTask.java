@@ -17,6 +17,8 @@ public class ArraysTask {
 	 * @return minElement
 	 */
 	public int getMinElement(int[] arr) {
+		if (arr.length == 0 || arr == null)
+			throw new IllegalArgumentException();
 		Arrays.sort(arr);
 		return arr[0];
 	}
@@ -29,6 +31,8 @@ public class ArraysTask {
 	 * @return sum of elements
 	 */
 	public int getSum(int[] arr) {
+		if (arr.length == 0 || arr == null)
+			throw new IllegalArgumentException();
 		int sum = 0;
 		int arrLength = arr.length;
 		for (int i = 0; i < arrLength; i++) {
@@ -46,6 +50,9 @@ public class ArraysTask {
 	 * @return printer elements
 	 */
 	public String printArray(int[] arr) {
+		if (arr.length == 0 || arr == null)
+			throw new IllegalArgumentException();
+
 		String elements = "";
 		int arrLength = arr.length;
 		for (int i = 0; i < arrLength; i++) {
