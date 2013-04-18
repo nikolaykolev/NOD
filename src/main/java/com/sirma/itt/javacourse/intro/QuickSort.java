@@ -59,7 +59,7 @@ public class QuickSort {
 	 * @return sorted array
 	 */
 	int[] qSort(int[] arr) {
-		if (arr.length == 0) {
+		if (arr.length == 0 && arr == null) {
 			return null;
 		}
 		return qSort(arr, 0, arr.length - 1);

@@ -16,8 +16,8 @@ public class CenterWeight {
 		int sum2 = 0;
 		int i;
 
-		if (arr == null)
-			return 0;
+		if (arr.length == 0 || arr == null)
+			throw new IllegalArgumentException();
 
 		for (i = 0; i < arr.length; i++) {
 			sum += arr[i];

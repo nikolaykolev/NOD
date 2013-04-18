@@ -1,5 +1,7 @@
 package com.sirma.itt.javacourse.intro;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.Arrays;
 
 import org.junit.Assert;
@@ -34,5 +36,14 @@ public class TestQuickSort {
 
 		Assert.assertArrayEquals("ok", test2res1, test2res2);
 
+	}
+
+	/**
+	 * testing null data.
+	 */
+	@Test(expected = NullPointerException.class)
+	public void testNull() {
+
+		assertEquals("null array", arr.qSort(null));
 	}
 }

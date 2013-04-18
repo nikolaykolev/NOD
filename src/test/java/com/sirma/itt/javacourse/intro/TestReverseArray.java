@@ -1,5 +1,7 @@
 package com.sirma.itt.javacourse.intro;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -21,5 +23,14 @@ public class TestReverseArray {
 		int[] test1Reversed = { 76, 34, 55, 84, 6, 4, 3, 4, 6, 9, 7, 4, 1 };
 		test1 = arr.reverseArray(test1);
 		Assert.assertArrayEquals("ok", test1Reversed, test1);
+	}
+
+	/**
+	 * testing null data.
+	 */
+	@Test(expected = NullPointerException.class)
+	public void testWeightNull() {
+
+		assertEquals("null array", arr.reverseArray(null));
 	}
 }
