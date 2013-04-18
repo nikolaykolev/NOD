@@ -60,7 +60,7 @@ public class QuickSort {
 	 */
 	int[] qSort(int[] arr) {
 		if (arr.length == 0 && arr == null) {
-			return null;
+			throw new IllegalArgumentException();
 		}
 		return qSort(arr, 0, arr.length - 1);
 	}
