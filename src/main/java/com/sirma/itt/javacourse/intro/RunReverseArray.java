@@ -1,9 +1,21 @@
 package com.sirma.itt.javacourse.intro;
 
-public class RunReverseArray {
+/**
+ * run class for reverse array.
+ * 
+ * @author Fester
+ */
+public final class RunReverseArray {
+	/**
+	 * constructor.
+	 */
+	private RunReverseArray() {
+
+	}
 
 	/**
 	 * @param args
+	 *            no
 	 */
 	public static void main(String[] args) {
 		ReverseArray rev = new ReverseArray();

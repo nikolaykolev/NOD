@@ -5,7 +5,15 @@ package com.sirma.itt.javacourse.intro;
  * 
  * @author Fester
  */
-class RunStringCalculator {
+public final class RunStringCalculator {
+	private static StringCalculator strCalc = new StringCalculator();
+
+	/**
+	 * constructor.
+	 */
+	private RunStringCalculator() {
+
+	}
 
 	/**
 	 * main.
@@ -17,7 +25,6 @@ class RunStringCalculator {
 		String str1 = "asd";
 		String str2 = "88876634513111";
 
-		StringCalculator strCalc = new StringCalculator();
 		System.out.println(strCalc.calc(str1, str2));
 	}
 

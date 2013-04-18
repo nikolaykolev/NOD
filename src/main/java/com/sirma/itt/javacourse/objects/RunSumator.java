@@ -5,14 +5,15 @@ package com.sirma.itt.javacourse.objects;
  * 
  * @author Fester
  */
-public class RunSumator {
+final class RunSumator {
+	private static Sumator sm = new Sumator();
 
 	/**
 	 * @param args
 	 *            no
 	 */
 	public static void main(String[] args) {
-		Sumator sm = new Sumator();
+
 		System.out.println(sm.sum(5, 5));
 
 	}

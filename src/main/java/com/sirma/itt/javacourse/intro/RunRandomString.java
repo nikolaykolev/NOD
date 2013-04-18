@@ -5,7 +5,15 @@ package com.sirma.itt.javacourse.intro;
  * 
  * @author Fester
  */
-final class RunRandomString {
+public final class RunRandomString {
+	private static RandomString rs = new RandomString();
+
+	/**
+	 * constructor.
+	 */
+	private RunRandomString() {
+
+	}
 
 	/**
 	 * @param args
@@ -13,7 +21,7 @@ final class RunRandomString {
 	 */
 	public static void main(String[] args) {
 		int x = 10;
-		RandomString rs = new RandomString();
+
 		System.out.println(rs.randomString(x));
 
 	}

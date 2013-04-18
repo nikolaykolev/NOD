@@ -1,12 +1,27 @@
 package com.sirma.itt.javacourse.intro;
 
-public class RunGcdLcmTask {
+/**
+ * run class for GcdLcmTask.
+ * 
+ * @author Fester
+ */
+public final class RunGcdLcmTask {
+	private static GcdLcmTask calc = new GcdLcmTask();
+
+	/**
+	 * constructor.
+	 */
+	private RunGcdLcmTask() {
+	}
 
 	/**
 	 * run class for GcdLcmTask.
+	 * 
+	 * @param args
+	 *            no
 	 */
-	public static void main() {
-		GcdLcmTask calc = new GcdLcmTask();
+	public static void main(String[] args) {
+
 		int num1 = 12;
 		int num2 = 32;
 
