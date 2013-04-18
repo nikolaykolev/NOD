@@ -79,7 +79,8 @@ public class Hangman {
 			letter = ch.toCharArray();
 
 			userWord = checkChar(userWord, realWord, letter[0]);
-			if (oldUserWord.equals(userWord)
+
+			if (oldUserWord.toString().equals(userWord.toString())
 					&& oldUserWord.indexOf(Character.toString(letter[0])) == -1) {
 				mistakes++;
 				System.out.print("Mistake! " + (maxMistakes - mistakes) + " more lives \n");
@@ -87,12 +88,12 @@ public class Hangman {
 			} else {
 				oldUserWord = checkChar(userWord, realWord, letter[0]);
 			}
-			if (mistakes == maxMistakes) {
+			if (mistakes >= maxMistakes) {
 				System.out.println("You're dead! \n");
+				break;
 			} else {
 				System.out.println(userWord);
 			}
-
 		}
 	}
 }

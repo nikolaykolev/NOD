@@ -17,6 +17,10 @@ public class TestHangman {
 	public void testHangman() {
 		String word = "domati";
 
+		String inputData = "o\na\n b vdo";
+		System.setIn(new java.io.ByteArrayInputStream(inputData.getBytes()));
+
+		hang.hangmanMain(word);
 	}
 
 	/**
