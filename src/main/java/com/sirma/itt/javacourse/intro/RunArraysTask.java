@@ -22,6 +22,7 @@ public final class RunArraysTask {
 	public static void main(String[] args) {
 
 		final int[] test = { 100, 12, 12, 1, 2, 3 };
+
 		System.out.println(arr.getMinElement(test));
 		System.out.println(arr.getSum(test));
 		System.out.println(arr.printArray(test));

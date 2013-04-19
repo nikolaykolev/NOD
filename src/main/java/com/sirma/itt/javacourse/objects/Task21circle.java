@@ -8,7 +8,7 @@ import java.awt.Point;
  * 
  * @author Fester
  */
-public class Task2circle extends Task2ellipse {
+public class Task21circle extends Task21ellipse {
 
 	/** The center. */
 	private Point center;

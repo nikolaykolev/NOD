@@ -7,7 +7,7 @@ import java.awt.Point;
  * 
  * @author Fester
  */
-public class Task2arc extends Task2ellipse {
+public class Task21arc extends Task21ellipse {
 	private Point p1;
 	private Point p2;
 	private int angle;

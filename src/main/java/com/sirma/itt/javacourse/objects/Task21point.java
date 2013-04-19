@@ -6,7 +6,7 @@ import java.awt.Point;
 /**
  * The Class Task2point.
  */
-public class Task2point {
+public class Task21point {
 
 	/** The point. */
 	private Point point;
