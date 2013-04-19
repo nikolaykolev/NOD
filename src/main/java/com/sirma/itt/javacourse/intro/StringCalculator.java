@@ -18,17 +18,7 @@ public class StringCalculator {
 	 * @return aggregation of the 2 numbers as string
 	 */
 	public String calc(String num1, String num2) {
-		char[] number1 = num1.toCharArray();
-		char[] number2 = num2.toCharArray();
-		int temp;
-		int num1Length = number1.length - 1;
-		int num2Length = number2.length - 1;
-		char[] res = new char[num2Length + 2];
-		res[0] = '1';
-		int z = 0;
-		int zero = 0;
-		int diff;
-		int i;
+
 		Pattern pattern = Pattern.compile("[^0-9]");
 		Matcher m1 = pattern.matcher(num1);
 		Matcher m2 = pattern.matcher(num2);
@@ -41,6 +31,18 @@ public class StringCalculator {
 				throw new IllegalArgumentException();
 			}
 		}
+
+		char[] number1 = num1.toCharArray();
+		char[] number2 = num2.toCharArray();
+		int temp;
+		int num1Length = number1.length - 1;
+		int num2Length = number2.length - 1;
+		char[] res = new char[num2Length + 2];
+		res[0] = '1';
+		int z = 0;
+		int zero = 0;
+		int diff;
+		int i;
 
 		// calculating
 

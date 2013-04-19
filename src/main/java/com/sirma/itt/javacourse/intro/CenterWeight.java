@@ -12,12 +12,13 @@ public class CenterWeight {
 	 * @return center weight of the array
 	 */
 	public int arrWeight(int[] arr) {
+		if (arr.length == 0 || arr == null) {
+			throw new IllegalArgumentException();
+		}
+
 		int sum = 0;
 		int sum2 = 0;
 		int i;
-
-		if (arr.length == 0 || arr == null)
-			throw new IllegalArgumentException();
 
 		for (i = 0; i < arr.length; i++) {
 			sum += arr[i];

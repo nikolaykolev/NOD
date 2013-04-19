@@ -22,6 +22,7 @@ public class Task2arc extends Task2ellipse {
 	 * @param angle
 	 *            angle
 	 */
+
 	private void arc(Point p1, Point p2, int angle) {
 		this.setP1(p1);
 		this.setP2(p2);

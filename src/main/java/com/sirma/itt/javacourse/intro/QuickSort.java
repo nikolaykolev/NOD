@@ -58,9 +58,8 @@ public class QuickSort {
 	 *            array to be sorted
 	 * @return sorted array
 	 */
-	@SuppressWarnings("unused")
 	int[] qSort(int[] arr) {
-		if (arr.length == 0 && arr == null) {
+		if (arr == null || arr.length == 0) {
 			throw new IllegalArgumentException();
 		}
 		return qSort(arr, 0, arr.length - 1);

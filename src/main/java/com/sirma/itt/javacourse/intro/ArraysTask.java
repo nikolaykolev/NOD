@@ -17,7 +17,7 @@ public class ArraysTask {
 	 * @return minElement
 	 */
 	public int getMinElement(int[] arr) {
-		if (arr.length == 0 || arr == null)
+		if (arr == null || arr.length == 0)
 			throw new IllegalArgumentException();
 		Arrays.sort(arr);
 		return arr[0];
