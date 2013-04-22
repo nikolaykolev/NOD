@@ -28,7 +28,7 @@ public class TestCenterWeight {
 	/**
 	 * testing null data.
 	 */
-	@Test(expected = NullPointerException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void testWeightNull() {
 
 		assertEquals("null array", arr.arrWeight(null));

@@ -1,5 +1,7 @@
 package com.sirma.itt.javacourse.intro;
 
+import org.apache.log4j.Logger;
+
 /**
  * @author Fester
  */
@@ -20,12 +22,12 @@ public final class RunArraysTask {
 	 *            no
 	 */
 	public static void main(String[] args) {
-
+		Logger log = Logger.getLogger("com.sirma.itt");
 		final int[] test = { 100, 12, 12, 1, 2, 3 };
 
-		System.out.println(arr.getMinElement(test));
-		System.out.println(arr.getSum(test));
-		System.out.println(arr.printArray(test));
+		log.debug(arr.getMinElement(test));
+		log.debug(arr.getSum(test));
+		arr.printArray(test);
 	}
 
 }

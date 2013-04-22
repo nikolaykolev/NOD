@@ -36,7 +36,7 @@ public class TestStringCalculator {
 	/**
 	 * testing null strings.
 	 */
-	@Test(expected = NullPointerException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void testNull() {
 		String str1 = null;
 		String str2 = null;

@@ -3,7 +3,7 @@ package com.sirma.itt.javacourse.intro;
 import org.junit.Test;
 
 /**
- * Testing class for Center Weight task.
+ * Testing class for Hangman task.
  * 
  * @author Fester
  */
@@ -11,7 +11,7 @@ public class TestHangman {
 	private Hangman hang = new Hangman();
 
 	/**
-	 * testing center weight method.
+	 * testing hangman game.
 	 */
 	@Test
 	public void testHangman() {

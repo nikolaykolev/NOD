@@ -31,7 +31,7 @@ public class ArraysTask {
 	 * @return sum of elements
 	 */
 	public int getSum(int[] arr) {
-		if (arr.length == 0 || arr == null)
+		if (arr == null || arr.length == 0)
 			throw new IllegalArgumentException();
 		int sum = 0;
 		int arrLength = arr.length;
@@ -43,15 +43,16 @@ public class ArraysTask {
 	}
 
 	/**
-	 * print all elements of an array.
+	 * converts array to string for printing.
 	 * 
 	 * @param arr
-	 *            integer array
-	 * @return printer elements
+	 *            int array
+	 * @return string of all elements
 	 */
-	public String printArray(int[] arr) {
-		if (arr.length == 0 || arr == null)
+	protected String arrToStr(int[] arr) {
+		if (arr == null || arr.length == 0) {
 			throw new IllegalArgumentException();
+		}
 
 		String elements = "";
 		int arrLength = arr.length;
@@ -62,7 +63,17 @@ public class ArraysTask {
 			}
 		}
 
-		System.out.println(elements);
 		return elements;
+	}
+
+	/**
+	 * print all elements of an array.
+	 * 
+	 * @param arr
+	 *            integer array
+	 */
+	public void printArray(int[] arr) {
+		String str = arrToStr(arr);
+		System.out.println(str);
 	}
 }

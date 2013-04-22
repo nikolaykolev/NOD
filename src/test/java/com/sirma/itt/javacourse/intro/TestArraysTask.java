@@ -9,7 +9,7 @@ import org.junit.Test;
  * 
  * @author Fester
  */
-public class TestArrays {
+public class TestArraysTask {
 	private ArraysTask arr = new ArraysTask();
 
 	/**
@@ -41,16 +41,16 @@ public class TestArrays {
 	public void testPrintArray() {
 		final int[] test1 = { 2, 6, 9, 4, 2, 1 };
 		final int[] test2 = { 100, 12, 12, 1, 2, 3 };
-		assertEquals("Must return 24", "2, 6, 9, 4, 2, 1", arr.printArray(test1));
-		assertEquals("Must return 130", "100, 12, 12, 1, 2, 3", arr.printArray(test2));
+		assertEquals("Must return 24", "2, 6, 9, 4, 2, 1", arr.arrToStr(test1));
+		assertEquals("Must return 130", "100, 12, 12, 1, 2, 3", arr.arrToStr(test2));
 	}
 
 	/**
 	 * testing null pointer exception.
 	 */
-	@Test(expected = NullPointerException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void testNulls() {
-		assertEquals("null array", arr.printArray(null));
+		assertEquals("null array", arr.arrToStr(null));
 		assertEquals("null array", arr.getSum(null));
 		assertEquals("null array", arr.getMinElement(null));
 	}

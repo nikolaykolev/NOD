@@ -41,7 +41,7 @@ public class TestQuickSort {
 	/**
 	 * testing null data.
 	 */
-	@Test(expected = NullPointerException.class)
+	@Test(expected = IllegalArgumentException.class)
 	public void testNull() {
 
 		assertEquals("null array", arr.qSort(null));

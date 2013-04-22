@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
-  <class id="1" language="java" name="com.sirma.itt.javacourse.objects.Task21point" project="NOD" 
-    file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task21point.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="147" x="203" y="122"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="com.sirma.itt.javacourse.objects.Task22square" project="NOD" 
+  <class id="1" language="java" name="com.sirma.itt.javacourse.objects.Task22square" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task22square.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="147" x="157" y="881"/>    
+    <position height="135" width="147" x="75" y="625"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.sirma.itt.javacourse.objects.Task22fourSide" project="NOD" 
+  <class id="2" language="java" name="com.sirma.itt.javacourse.objects.Task22fourSide" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task22fourSide.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="147" x="344" y="297"/>    
+    <position height="81" width="147" x="262" y="41"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.sirma.itt.javacourse.objects.Figure" project="NOD" 
+  <class id="3" language="java" name="com.sirma.itt.javacourse.objects.Figure" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Figure.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="147" x="437" y="122"/>    
+    <position height="81" width="147" x="355" y="-134"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.sirma.itt.javacourse.objects.Task21circle" project="NOD" 
+  <class id="4" language="java" name="com.sirma.itt.javacourse.objects.Task21circle" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task21circle.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="147" x="531" y="580"/>    
+    <position height="207" width="147" x="449" y="324"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="com.sirma.itt.javacourse.objects.Task21ellipse" project="NOD" 
-    file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task21ellipse.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="243" width="147" x="531" y="297"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
-      visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true"/>      
-      <operations public="true" package="true" protected="true" private="true"/>    
-    </display>  
-  </class>  
-  <class id="7" language="java" name="com.sirma.itt.javacourse.objects.Task21arc" project="NOD" 
+  <class id="5" language="java" name="com.sirma.itt.javacourse.objects.Task21arc" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task21arc.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="261" width="147" x="718" y="580"/>    
+    <position height="261" width="147" x="636" y="324"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="com.sirma.itt.javacourse.objects.Task22rect" project="NOD" 
+  <class id="6" language="java" name="com.sirma.itt.javacourse.objects.Task21point" project="NOD" 
+    file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task21point.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="147" x="589" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.sirma.itt.javacourse.objects.Task22rect" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task22rect.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="147" x="157" y="580"/>    
+    <position height="189" width="147" x="75" y="324"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="com.sirma.itt.javacourse.objects.Task22rhombus" project="NOD" 
+  <class id="8" language="java" name="com.sirma.itt.javacourse.objects.Task22rhombus" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task22rhombus.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="147" x="344" y="881"/>    
+    <position height="189" width="147" x="262" y="324"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="com.sirma.itt.javacourse.objects.Task22parall" project="NOD" 
+  <class id="9" language="java" name="com.sirma.itt.javacourse.objects.Task22parall" project="NOD" 
     file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task22parall.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="147" x="344" y="580"/>    
+    <position height="243" width="147" x="262" y="625"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.sirma.itt.javacourse.objects.Task21ellipse" project="NOD" 
+    file="/NOD/src/main/java/com/sirma/itt/javacourse/objects/Task21ellipse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="147" x="449" y="41"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
@@ -92,28 +92,36 @@
     </display>  
   </class>  
   <generalization id="11">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
   </generalization>  
   <generalization id="12">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <generalization id="13">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="8"/>  
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <generalization id="14">    
     <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="TARGET" refId="10"/>  
   </generalization>  
   <generalization id="15">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
   </generalization>  
   <generalization id="16">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     accessors="true" visibility="true">    

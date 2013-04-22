@@ -1,8 +1,6 @@
 package com.sirma.itt.javacourse.intro;
 
 /**
- * NOT READY!!!.
- * 
  * @author Fester
  */
 public class CenterWeight {
@@ -12,7 +10,7 @@ public class CenterWeight {
 	 * @return center weight of the array
 	 */
 	public int arrWeight(int[] arr) {
-		if (arr.length == 0 || arr == null) {
+		if (arr == null || arr.length == 0) {
 			throw new IllegalArgumentException();
 		}
 

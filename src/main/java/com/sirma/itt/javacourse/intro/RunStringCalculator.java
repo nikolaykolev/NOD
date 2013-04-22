@@ -22,8 +22,8 @@ public final class RunStringCalculator {
 	 *            no args
 	 */
 	public static void main(String[] args) {
-		String str1 = "asd";
-		String str2 = "88876634513111";
+		String str1 = "9999";
+		String str2 = "7787";
 
 		System.out.println(strCalc.calc(str1, str2));
 	}

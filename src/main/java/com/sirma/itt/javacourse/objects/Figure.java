@@ -5,4 +5,8 @@ package com.sirma.itt.javacourse.objects;
  */
 public class Figure {
 
+	public void draw() {
+
+	}
+
 }

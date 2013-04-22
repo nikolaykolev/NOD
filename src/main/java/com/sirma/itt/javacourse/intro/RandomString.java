@@ -1,6 +1,5 @@
 package com.sirma.itt.javacourse.intro;
 
-
 /**
  * random string generator.
  * 
@@ -16,12 +15,11 @@ public class RandomString {
 	 * @return random string
 	 */
 	public String randomString(int length) {
-		int len = length;
 		int charNumber;
 		String str = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 		int strLen = str.length();
 		String res = "";
-		for (int i = 0; i < len; i++) {
+		for (int i = 0; i < length; i++) {
 			charNumber = (int) (Math.random() * strLen);
 			res += str.charAt(charNumber);
 		}

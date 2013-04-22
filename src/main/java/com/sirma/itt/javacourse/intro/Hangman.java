@@ -16,7 +16,7 @@ public class Hangman {
 	 * 
 	 * @return line
 	 */
-	public String read() {
+	protected String read() {
 		InputStream in = System.in;
 		BufferedReader br = new BufferedReader(new InputStreamReader(in));
 		String line = null;
@@ -38,7 +38,7 @@ public class Hangman {
 	 *            character inserted
 	 * @return new user word
 	 */
-	public StringBuilder checkChar(StringBuilder userStr, String realStr, char ch) {
+	protected StringBuilder checkChar(StringBuilder userStr, String realStr, char ch) {
 		String realWord = realStr;
 		StringBuilder userWord = userStr;
 		int wordLen = realWord.length();
@@ -56,6 +56,10 @@ public class Hangman {
 	 *            word to be quessed
 	 */
 	public void hangmanMain(String realStr) {
+		if (realStr == null || realStr.length() == 0) {
+			throw new IllegalArgumentException();
+		}
+
 		String realWord = realStr;
 		int length = realWord.length();
 		StringBuilder userWord = new StringBuilder();
@@ -64,10 +68,6 @@ public class Hangman {
 		char[] letter;
 		int mistakes = 0;
 		int maxMistakes = length / 2;
-
-		if (length == 0 || realWord == null) {
-			throw new IllegalArgumentException();
-		}
 
 		for (int i = 0; i < length; i++) {
 			userWord.append("_");
