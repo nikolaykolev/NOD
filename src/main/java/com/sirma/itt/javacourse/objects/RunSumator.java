@@ -5,8 +5,15 @@ package com.sirma.itt.javacourse.objects;
  * 
  * @author Fester
  */
-final class RunSumator {
+public final class RunSumator {
 	private static Sumator sm = new Sumator();
+
+	/**
+	 * constructor.
+	 */
+	private RunSumator() {
+
+	}
 
 	/**
 	 * @param args
