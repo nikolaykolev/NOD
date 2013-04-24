@@ -7,6 +7,8 @@ import java.math.BigInteger;
 
 import org.junit.Test;
 
+import com.sirma.itt.javacourse.objects.sumator.Sumator;
+
 /**
  * Testing class for sumator.
  * 
