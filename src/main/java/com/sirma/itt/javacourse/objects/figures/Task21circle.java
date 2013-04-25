@@ -1,7 +1,5 @@
 package com.sirma.itt.javacourse.objects.figures;
 
-import java.awt.Point;
-
 // TODO: Auto-generated Javadoc
 /**
  * The Class Task2circle.
@@ -11,7 +9,7 @@ import java.awt.Point;
 public class Task21circle extends Task21ellipse {
 
 	/** The center. */
-	private Point center;
+	private Task21point center;
 
 	/** The radius. */
 	private int radius;
@@ -24,30 +22,30 @@ public class Task21circle extends Task21ellipse {
 	 * @param radius
 	 *            set radius
 	 */
-	public void circle(Point center, int radius) {
+	public void circle(Task21point center, int radius) {
 		this.setCenter(center);
 		this.setRadius(radius);
 	}
 
 	/**
-	 * Sets the center.
-	 * 
-	 * @param center
-	 *            the new center
-	 */
-	@Override
-	public void setCenter(Point center) {
-		this.center = center;
-	}
-
-	/**
-	 * Gets the center.
+	 * Getter method for center.
 	 * 
 	 * @return the center
 	 */
 	@Override
-	public Point getCenter() {
-		return this.center;
+	public Task21point getCenter() {
+		return center;
+	}
+
+	/**
+	 * Setter method for center.
+	 * 
+	 * @param center
+	 *            the center to set
+	 */
+	@Override
+	public void setCenter(Task21point center) {
+		this.center = center;
 	}
 
 	/**

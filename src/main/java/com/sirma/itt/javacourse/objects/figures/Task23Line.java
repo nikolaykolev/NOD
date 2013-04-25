@@ -7,7 +7,7 @@ import java.awt.Point;
  * 
  * @author Fester
  */
-public class Task23Line extends Task23PolyLine {
+public class Task23Line {
 	private Point p1;
 	private Point p2;
 

@@ -1,7 +1,5 @@
 package com.sirma.itt.javacourse.objects.figures;
 
-import java.awt.Point;
-
 /**
  * Ellipse class.
  * 
@@ -10,7 +8,7 @@ import java.awt.Point;
 public class Task21ellipse extends Figure {
 
 	/** The center. */
-	private Point center;
+	private Task21point center;
 	private int width;
 	private int height;
 
@@ -58,7 +56,7 @@ public class Task21ellipse extends Figure {
 	 * @param center
 	 *            the new center
 	 */
-	public void setCenter(Point center) {
+	public void setCenter(Task21point center) {
 		this.center = center;
 	}
 
@@ -67,7 +65,7 @@ public class Task21ellipse extends Figure {
 	 * 
 	 * @return the center
 	 */
-	public Point getCenter() {
+	public Task21point getCenter() {
 		return this.center;
 	}
 

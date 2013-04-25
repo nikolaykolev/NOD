@@ -1,6 +1,5 @@
 package com.sirma.itt.javacourse.objects.figures;
 
-import java.awt.Point;
 
 /**
  * class for arc.
@@ -8,8 +7,8 @@ import java.awt.Point;
  * @author Fester
  */
 public class Task21arc extends Task21ellipse {
-	private Point p1;
-	private Point p2;
+	private Task21point p1;
+	private Task21point p2;
 	private int angle;
 
 	/**
@@ -22,48 +21,48 @@ public class Task21arc extends Task21ellipse {
 	 * @param angle
 	 *            angle
 	 */
-	public void arc(Point p1, Point p2, int angle) {
+	public void arc(Task21point p1, Task21point p2, int angle) {
 		this.setP1(p1);
 		this.setP2(p2);
 		this.setAngle(angle);
 	}
 
 	/**
-	 * set start point.
+	 * Getter method for p1.
 	 * 
-	 * @param p1
-	 *            start point
+	 * @return the p1
 	 */
-	public void setP1(Point p1) {
-		this.p1 = p1;
-	}
-
-	/**
-	 * get start point.
-	 * 
-	 * @return start point
-	 */
-	public Point getP1() {
+	public Task21point getP1() {
 		return p1;
 	}
 
 	/**
-	 * set end point.
+	 * Setter method for p1.
 	 * 
-	 * @param p2
-	 *            end point
+	 * @param p1
+	 *            the p1 to set
 	 */
-	public void setP2(Point p2) {
-		this.p2 = p2;
+	public void setP1(Task21point p1) {
+		this.p1 = p1;
 	}
 
 	/**
-	 * get end point.
+	 * Getter method for p2.
 	 * 
-	 * @return end point
+	 * @return the p2
 	 */
-	public Point getP2() {
+	public Task21point getP2() {
 		return p2;
+	}
+
+	/**
+	 * Setter method for p2.
+	 * 
+	 * @param p2
+	 *            the p2 to set
+	 */
+	public void setP2(Task21point p2) {
+		this.p2 = p2;
 	}
 
 	/**

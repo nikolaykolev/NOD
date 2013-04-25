@@ -6,24 +6,45 @@ package com.sirma.itt.javacourse.objects.figures;
  * @author Fester
  */
 public class Task22rhombus extends Task22fourSide {
-	private int angle;
+	private int width;
+	private Task22square a;
 
 	/**
-	 * Getter method for angle.
+	 * Getter method for width.
 	 * 
-	 * @return the angle
+	 * @return the width
 	 */
-	public int getAngle() {
-		return angle;
+	public int getWidth() {
+		return width;
 	}
 
 	/**
-	 * Setter method for angle.
+	 * Setter method for width.
 	 * 
-	 * @param angle
-	 *            the angle to set
+	 * @param width
+	 *            the width to set
 	 */
-	public void setAngle(int angle) {
-		this.angle = angle;
+	public void setWidth(int width) {
+		this.width = width;
 	}
+
+	/**
+	 * Getter method for a.
+	 * 
+	 * @return the a
+	 */
+	public Task22square getA() {
+		return a;
+	}
+
+	/**
+	 * Setter method for a.
+	 * 
+	 * @param a
+	 *            the a to set
+	 */
+	public void setA(Task22square a) {
+		this.a = a;
+	}
+
 }
